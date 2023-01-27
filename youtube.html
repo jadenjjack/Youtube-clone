@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube.com Clone</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+
+
+        <style>
+            
+        </style>
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="left-section">
+                <div class="hamburger-menu-container">
+                    <img class="hamburger-menu"src="icons/hamburger-menu.svg" >
+                </div>
+                <a href="https://www.youtube.com/">
+                    <img class="youtube-logo"src="icons/youtube-logo.svg" >
+                </a>
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <!-- Put position absolute inside position relative
+                to create the tooltip-->
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="icons/upload.svg">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="notifications-icon-container">
+                    <div class="notifications-icon-image">
+                        <img class="notifications-icon" src="icons/notifications.svg">
+                        <div class="notifications-count">3</div>
+                    </div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+                <div class="current-user-picture-container">
+                    <img class="current-user-picture" src="channel-pictures/profile-pic.jpg">
+                </div>
+            </div>
+        </header>
+
+        <nav class="categories-div">
+            <div class="categories-all">All</div>
+            <div class="categories">Mixes</div>
+            <div class="categories">Music</div>
+            <div class="categories">Sketch Comedy</div>
+            <div class="categories">Live</div>
+            <div class="categories">Gaming</div>
+            <div class="categories">NBA</div>
+            <div class="categories">Comedy</div>
+            <div class="categories">Cash Card Games</div>
+            <div class="categories">Web Development</div>
+            <div class="categories">Computer programming</div>
+        </nav>
+
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <a href="https://www.youtube.com/">
+                    <img class="sidebar-icons" src="icons/home.svg" >
+                </a>
+                <p>Home</p>
+            </div>
+            <div class="sidebar-link">
+                <a href="https://www.youtube.com/shorts/">
+                    <img class="sidebar-icons" src="icons/youtube-shorts-logo-15252.svg" >
+                </a>
+                <p>Shorts</p>
+            </div>
+            <div class="sidebar-link">
+                <img class="sidebar-icons" src="icons/subscriptions.svg" >
+                <p>Subscriptions</p>
+            </div>
+            <div class="sidebar-link">
+                <img class="sidebar-icons" src="icons/library.svg" >
+                <p>Library</p>
+            </div>
+        </nav>
+        
+        <main>
+            <section class="video-grid">
+                <div class="video-preview video-preview-1" >
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22050s">
+                            <img class="thumbnail" 
+                            src="thumbnails/css-course.webp" >
+                        </a>
+                        <div class="video-time">6:31:24</div>
+                    </div>
+        
+                    <div class="video-info-grid">
+        
+                        <div class="channel-picture">
+                            <a href="https://www.youtube.com/@SuperSimpleDev">
+                                <img class="profile-picture" src="channel-pictures/css-course.jpg">
+                            </a>
+                        </div>
+        
+                        <div class="video-info">
+                            <div>
+                                <a class="video-title" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22050s">
+                                    HTML & CSS Full Course - Beginner to Pro (2022)
+                                </a>
+                            </div>
+        
+                            <div>
+                                <a class="video-author" href="https://www.youtube.com/@SuperSimpleDev">
+                                    SuperSimpleDev
+                                </a>
+                            </div>
+        
+                            <div>
+                                <p class="video-stats">
+                                    2.9M views &#183; 11 months ago
+                                </p>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=fH2777jU4EI">
+                            <img class="thumbnail" src="thumbnails/poker-event.webp" alt="">
+                        </a>
+                        <div class="video-time">33:50</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <a href="https://www.youtube.com/@RampagePoker">
+                                <img class="profile-picture"src="channel-pictures/rampage.jpg" >
+                            </a>
+                        </div>
+            
+                        <div class="video-info">
+                            <div>
+                                <a class="video-title" href="https://www.youtube.com/watch?v=fH2777jU4EI">
+                                I WON A WPT HIGH ROLLER AND $894,240! Day 2 | Poker Vlog
+                                </a>
+                            </div>
+        
+                            <div>
+                                <a class="video-author" href="https://www.youtube.com/@RampagePoker">
+                                    Rampage
+                                </a>
+                            </div>
+        
+                            <div>
+                                <p class="video-stats">
+                                    18k views &#183; 1 hour ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=IwflgGnAZCc">
+                            <img class="thumbnail" src="thumbnails/spurs-grizzlies.webp" alt="">
+                        </a>
+                        <div class="video-time">9:46</div>
+                    </div>
+        
+                    <div class="video-info-grid">
+        
+                        <div class="channel-picture">
+                            <a href="">
+                                <img class="profile-picture" src="channel-pictures/nba-logo.jpg" alt="">
+                            </a>
+                        </div>
+        
+                        <div class="video-info">
+                            <div>
+                                <a class="video-title" href="https://www.youtube.com/watch?v=IwflgGnAZCc">
+                                    SPURS at GRIZZLIES | FULL GAME HIGHLIGHTS | January 11, 2023
+                                </a>
+                            </div>
+        
+                            <div>
+                                <a class="video-author" href="https://www.youtube.com/@NBA">
+                                    NBA
+                                </a>
+                            </div>
+        
+                            <div>
+                                <p class="video-stats">
+                                    211K views &#183; 19 hours ago
+                                </p>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="video-preview video-preview-4">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=XkRmZb3smC0&t=14s">
+                            <img class="thumbnail" src="thumbnails/thumbnail1.webp" alt="">
+                        </a>
+                        <div class="video-time">10:05</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <a href="https://www.youtube.com/@dannydiscovers">
+                                <img class="profile-picture"src="channel-pictures/channel-pic1.jpg" >
+                            </a>
+                        </div>
+            
+                        <div class="video-info">
+                            <div>
+                                <a class="video-title" href="https://www.youtube.com/watch?v=XkRmZb3smC0&t=14s">
+                                    How I HACKED My Brain To Learn Coding 
+                                </a>
+                            </div>
+        
+                            <div>
+                                <a class="video-author" href="https://www.youtube.com/@dannydiscovers">
+                                    Danny Discovers 
+                                </a>
+                            </div>
+        
+                            <div>
+                                <p class="video-stats">
+                                    13K views &#183; 6 days ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="video-preview video-preview-5">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=BJFdC7963jU">
+                            <img class="thumbnail" src="thumbnails/thumbnail2.webp">
+                        </a>
+                        <div class="video-time">27:34</div>
+                    </div>
+        
+                    <div class="video-info-grid">
+        
+                        <div class="channel-picture">
+                            <a href="https://www.youtube.com/@GothamChess">
+                                <img class="profile-picture" src="channel-pictures/channel-pic2.jpg" >
+                            </a>
+                        </div>
+        
+                        <div class="video-info">
+                            <div>
+                                <a class="video-title" href="https://www.youtube.com/watch?v=BJFdC7963jU">
+                                2400 ELO vs. 2000 ELO: The Difference
+                                </a>
+                            </div>
+        
+                            <div>
+                                <a class="video-author" href="https://www.youtube.com/@GothamChess">
+                                    Gotham Chess
+                                </a>
+                            </div>
+        
+                            <div>
+                                <p class="video-stats">
+                                    1.1M views &#183; 1 year ago
+                                </p>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+                            <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+                        </a>
+                        <div class="video-time">20:00</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <a href="https://www.youtube.com/@MrBeast">
+                                <img class="profile-picture"src="channel-pictures/channel-6.jpeg" >
+                            </a>
+                            
+                        </div>
+            
+                        <div class="video-info">
+                            <div>
+                                <a class="video-title" href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+                                Anything You Can Fit In The Circle I'll Pay For
+                                </a>
+                            </div>
+        
+                            <div>
+                                <a class="video-author" href="https://www.youtube.com/@MrBeast">
+                                    MrBeast
+                                </a>
+                            </div>
+        
+                            <div>
+                                <p class="video-stats">
+                                    198M views &#183; 2 years ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=PVt4muawPwI">
+                            <img class="thumbnail" src="thumbnails/thumbnail3.webp">
+                        </a>
+                        <div class="video-time">7:11</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <a href="https://www.youtube.com/@amenalex/videos">
+                                <img class="profile-picture"src="channel-pictures/channel-pic3.jpg" >
+                            </a>
+                            
+                        </div>
+            
+                        <div class="video-info">
+                            <div>
+                                <a class="video-title" href="https://www.youtube.com/watch?v=PVt4muawPwI">
+                                How to Please God: Smile
+                                </a>
+                            </div>
+        
+                            <div>
+                                <a class="video-author" href="https://www.youtube.com/@amenalex/videos">
+                                    Alex Wilson
+                                </a>
+                            </div>
+        
+                            <div>
+                                <p class="video-stats">
+                                    1.9K views &#183; 7 hours ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview video-preview-8">
+                    <div class="thumbnail-row">
+                        <a href="https://www.youtube.com/watch?v=xawlRpnisZA">
+                            <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="">
+                        </a>
+
+                        <div class="video-time">3:36</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture"src="channel-pictures/channel-pic-4.jpg" >
+                        </div>
+            
+                        <div class="video-info">
+                            <div>
+                                <a class="video-title" href="https://www.youtube.com/watch?v=xawlRpnisZA">
+                                    Live from the factory floor – "Rideaux Lunaires" by Chilly Gonzales
+                                </a>
+                            </div>
+        
+                            <div>
+                                <p class="video-author">
+                                    Steinway & Sons
+                                </p>
+                            </div>
+        
+                            <div>
+                                <p class="video-stats">
+                                    133K views &#183; 4 years ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
