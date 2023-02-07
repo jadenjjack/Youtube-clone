@@ -2,7 +2,7 @@
 https://youtu.be/aa6ESqZsOyg
 
 # YouTube-clone
-Use html structure and CSS styling to recreate the YouTube homepage 
+Generated working YouTube prototype using HTML and CSS methodologies to enhance user experience.
 
 # Built With 
 HTML
