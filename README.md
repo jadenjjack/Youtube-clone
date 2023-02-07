@@ -5,5 +5,5 @@ https://youtu.be/aa6ESqZsOyg
 Generated working YouTube prototype using HTML and CSS methodologies to enhance user experience.
 
 # Built With 
-HTML
+HTML,
 CSS (Cascading Style Sheets)
